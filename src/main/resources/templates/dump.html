@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Дамп</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div th:insert="header">...</div>
+<div class="p-4 mx-10 max-w-xs shadow-xl rounded-lg">
+    <a class="underline text-blue-600 "
+       th:href="${'/dump/download'}" th:text="${'Скачать дамп'}"/>
+</div>
+</body>
+</html>

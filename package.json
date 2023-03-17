@@ -1,0 +1,26 @@
+{
+  "name": "itlittlecrm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reoptima/ItLittleCRM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reoptima/ItLittleCRM/issues"
+  },
+  "homepage": "https://github.com/Reoptima/ItLittleCRM#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "flowbite": "^1.5.5"
+  }
+}
